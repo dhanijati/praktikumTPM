@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#99a832"
+    android:padding="30dp">
+    <TextView
+        android:fontFamily="sans-serif-black"
+        android:textStyle="italic"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="gravity"
+        android:text="Pesawat Terbang adalah pesawat udara yang lebih berat dari udara, bersayap tetap, dan dapat terbang dengan tenaga sendiri"/>
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/pesawat"
+        android:layout_alignParentRight="true"/>
+    <TextView
+        android:id="@+id/grab"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:text="Kapal adalah kendaraan pengangkut penumpang dan barang di laut, seperti halnya sampan atau perahu yang lebih kecil. Kapal biasanya cukup besar untuk membawa perahu kecil seperti sekoci."/>
+    <ImageView
+        android:layout_width="190dp"
+        android:layout_height="200dp"
+        android:src="@drawable/kapal"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="false"
+        android:layout_alignTop="@+id/grab"/>
+
+</RelativeLayout>
